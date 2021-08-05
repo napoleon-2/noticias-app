@@ -5,9 +5,9 @@ const Header = ({titulo}) => {
     return ( 
           
         <nav>
-            <div class="nav-wrapper  light-blue darken-3 ">
+            <div className="nav-wrapper  light-blue darken-3 ">
                 <a href="!#" className="brand-logo center">{titulo}</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <ul id="nav-mobile" className="left hide-on-med-and-down">
                 </ul>
                 
             </div>
